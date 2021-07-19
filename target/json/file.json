@@ -1,0 +1,193 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-23T06:51:34.097Z",
+        "before": [
+          {
+            "result": {
+              "duration": 33119407300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.login_StepDefn.BeforeCodition()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "launching the url on browser and fill registration",
+        "description": "",
+        "id": "launching-url-and-checking-login-page;launching-the-url-on-browser-and-fill-registration",
+        "after": [
+          {
+            "result": {
+              "duration": 343112000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.login_StepDefn.End_Method()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12966700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user open the browser and checking  user navigate to right url",
+            "match": {
+              "location": "Test.login_StepDefn.user_open_the_browser_and_checking_user_navigate_to_right_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3420924900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "provide correct email address to navigate",
+            "match": {
+              "location": "Test.login_StepDefn.provide_correct_email_address_to_navigate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20337182500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user provide correct registration details and login",
+            "match": {
+              "location": "Test.login_StepDefn.user_provide_correct_registration_details_and_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: Not on home page expected:\u003c...ndex.php?controller\u003d[]my-account\u003e but was:\u003c...ndex.php?controller\u003d[authentication\u0026back\u003d]my-account\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat Test.login_StepDefn.user_is_launch_on_homepage_correctly(login_StepDefn.java:164)\r\n\tat ✽.user is launch on homepage correctly(classpath:Folder/login.feature:11)\r\n",
+              "duration": 33913400,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "user is launch on homepage correctly",
+            "match": {
+              "location": "Test.login_StepDefn.user_is_launch_on_homepage_correctly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Healthcheck"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@registration"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T06:52:32.164Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18910093100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.login_StepDefn.BeforeCodition()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Checking login page",
+        "description": "",
+        "id": "launching-url-and-checking-login-page;checking-login-page",
+        "after": [
+          {
+            "result": {
+              "duration": 2389468000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.login_StepDefn.End_Method()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16751929400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "use launch the url on browser",
+            "match": {
+              "location": "Test.login_stepdef_positive.use_launch_the_url_on_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6372275400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user login with valide credential",
+            "match": {
+              "location": "Test.login_stepdef_positive.user_login_with_valide_credential()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: Not on home page expected:\u003c...ndex.php?controller\u003d[]my-account\u003e but was:\u003c...ndex.php?controller\u003d[authentication\u0026back\u003d]my-account\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat Test.login_stepdef_positive.checking_the_user_launch_to_home_page(login_stepdef_positive.java:66)\r\n\tat ✽.checking the user launch to home page(classpath:Folder/login.feature:18)\r\n",
+              "duration": 9976900,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "checking the user launch to home page",
+            "match": {
+              "location": "Test.login_stepdef_positive.checking_the_user_launch_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Healthcheck"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Launching Url and Checking login page",
+    "description": "",
+    "id": "launching-url-and-checking-login-page",
+    "keyword": "Feature",
+    "uri": "classpath:Folder/login.feature",
+    "tags": [
+      {
+        "name": "@Healthcheck",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
